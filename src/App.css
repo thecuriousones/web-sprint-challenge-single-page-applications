@@ -67,3 +67,63 @@ nav {
   background-color: rgb(226, 226, 131);
   font-weight: 600;
 }
+
+#pizza-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -0.2rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  font-weight: 600;
+}
+
+.header {
+  text-align: center;
+}
+
+
+.form-image {
+  width: 50rem;
+  min-width: 1032px;
+  height: 30rem;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: lightslategrey;
+}
+
+#size-dropdown {
+  color: black;
+  margin-bottom: -1rem;
+  margin-top: 1rem;
+}
+
+.radio-buttons {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: 1rem;
+  flex-flow: column wrap;
+  text-align: center;
+}
+
+.checkboxes {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: 1rem;
+  flex-flow: column wrap;
+  text-align: center;
+}
+
+.text-inputs {
+  margin-top: 2rem;
+}
