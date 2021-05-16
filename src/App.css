@@ -54,16 +54,16 @@ nav {
 }
 
 .home-image {
-  width: 100%;
+  width: 50rem;
   min-width: 1032px;
   height: 43rem;
+  border-radius: 2rem;
 }
 
-.shop-button.md-button {
+#order-pizza {
   margin-top: -16px;
-  width: 115px;
+  width: 10rem;
   height: 2rem;
-  padding: 0.4rem;
   background-color: rgb(226, 226, 131);
   font-weight: 600;
 }
