@@ -125,6 +125,7 @@ export default function OrderForm(props) {
                     <section className='text-inputs'>
                         <label>Name&nbsp; 
                             <input 
+                                id='name-input'
                                 value={values.name} 
                                 onChange={onChange} 
                                 name="name" 
