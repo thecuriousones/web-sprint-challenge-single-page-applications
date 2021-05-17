@@ -6,6 +6,7 @@ import OrderForm from './orderForm'
 import axios from 'axios'
 import * as yup from 'yup'
 import { schema } from './formSchema'
+import OrderConfirmation from './orderConfirmation'
 
 
 
@@ -119,6 +120,9 @@ const App = () => {
           disabled = {disabled}
           errors = {formErrors}
         />
+      </Route>
+      <Route path ='/confirmation'>
+        <OrderConfirmation />
       </Route>
     </div>
   );

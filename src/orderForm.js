@@ -1,4 +1,5 @@
 import React from 'react'
+import { useHistory } from "react-router-dom";
 
 
 export default function OrderForm(props) {
@@ -9,10 +10,13 @@ export default function OrderForm(props) {
         disabled,
         errors,
     } = props
+    
+    const history = useHistory();
 
     const onSubmit = event => {
         event.preventDefault()
         submit()
+        history.push('/confirmation')
     }
 
     const onChange = (event) => {
@@ -20,6 +24,9 @@ export default function OrderForm(props) {
         const inputValue = type === "checkbox" ? checked : value;
         change(name, inputValue);
     }
+
+    
+    
 
 
 

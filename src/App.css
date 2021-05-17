@@ -12,6 +12,7 @@ body,
   text-align: center;
   height: 100%;
   width: 100%;
+  color: black;
 }
 
 nav {
@@ -126,4 +127,11 @@ nav {
 
 .text-inputs {
   margin-top: 2rem;
+}
+
+.gif {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
