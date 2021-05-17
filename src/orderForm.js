@@ -45,8 +45,8 @@ export default function OrderForm(props) {
                                 name='size'
                             >
                                 <option value=''>- Select a size -</option>
-                                <option value='personal'>Personal</option>
-                                <option value='medium'>Medium</option>
+                                <option value='Personal'>Personal</option>
+                                <option value='Medium'>Medium</option>
                                 <option value='Large'>Large</option>
                                 <option value='Extra Large'>Extra Large</option>
                             </select>
@@ -55,8 +55,8 @@ export default function OrderForm(props) {
         
                     <section className='radio-buttons'>
                         <h4>CHOOSE A SAUCE: </h4>
-                        <label>Marinana Sauce
-                            <input type="radio" value='marinana sauce' onChange={onChange} name="sauce" checked={values.sauce === 'marinana sauce'}/>
+                        <label>Marinara Sauce
+                            <input type="radio" value='marinara sauce' onChange={onChange} name="sauce" checked={values.sauce === 'marinara sauce'}/>
                         </label>
 
                         <label>Alfredo Sauce
@@ -126,11 +126,11 @@ export default function OrderForm(props) {
                             />  
                         </label><br/> <br/>
 
-                        <label>Address&nbsp; 
+                        <label>Phone&nbsp; 
                             <input 
-                                value={values.address} 
+                                value={values.phone} 
                                 onChange={onChange} 
-                                name="address" 
+                                name="phone" 
                                 type="text" 
                                 placeholder="type here"
                             />  
@@ -156,7 +156,7 @@ export default function OrderForm(props) {
                             <div>{errors.sauce}</div>
                             <div>{errors.instructions}</div>
                             <div>{errors.name}</div>
-                            <div>{errors.address}</div>
+                            <div>{errors.phone}</div>
                         </div>
                     </section>
             </div>
