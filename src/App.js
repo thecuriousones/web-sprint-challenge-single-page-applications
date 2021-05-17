@@ -101,7 +101,7 @@ const App = () => {
 
   return (
     <div classname='App'>
-      <nav>
+      <nav className='nav'>
         <h1 className='store-header'>Lambda Eats</h1>
         <div className='nav-links'>
           <Link to='/'>Home</Link>
